@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    min-height: 100vh; /* Ensure full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Padding around the edges to avoid touching the screen */
+}
+
+.container {
+    width: 100%;
+    max-width: 420px; /* Prevent the form from stretching too wide */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 40px; /* Adjusted padding for more compact form */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: 90vh; /* Maximum height of form container */
+    overflow-y: auto; /* Add scroll if content overflows, will show only when needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between elements to avoid overflowing */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px; /* Reduced margin for more compact spacing */
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 12px; /* Reduced padding */
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+button.btn {
+    width: 100%;
+    padding: 14px; /* Adjusted padding */
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #003d80;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* style.css */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -74,7 +74,7 @@ Welcome to **BSIC_CRM**, a simple yet functional Customer Relationship Managemen
 ## 🛠️ Set Up the Database
 
 1. Create a **MySQL** database named `CRM`
-2. Import the provided SQL schema/data into the database
+2. Import the `crm.sql` into the database
 
 ---
 

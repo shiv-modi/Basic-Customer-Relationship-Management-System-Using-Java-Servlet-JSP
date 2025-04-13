@@ -78,21 +78,12 @@ Welcome to **BSIC_CRM**, a simple yet functional Customer Relationship Managemen
 
 ---
 
-## ⚙️ Configure Database in `web.xml`
+## ⚙️ Configure Database in `/BSIC_CRM/src/main/java/com/crm/dao/DbCon.java`
 
 ```xml
-<context-param>
-  <param-name>url</param-name>
-  <param-value>jdbc:mysql://localhost:3306/CRM</param-value>
-</context-param>
-<context-param>
-  <param-name>username</param-name>
-  <param-value>root</param-value>
-</context-param>
-<context-param>
-  <param-name>password</param-name>
-  <param-value>your_password</param-value>
-</context-param>
+	public final String url = "jdbc:mysql://localhost:3306/YOUR_DATABASE_NAME";
+	public final String username = "YOUR_USERNAME";
+	public final String password = "YOUR_PASSWORD";
 ```
 ## 📦 Add Dependencies
 
@@ -132,17 +123,44 @@ BSIC_CRM/
 ```
 ## Screenshots
 
-1. **Login Page**  
-   ![Login Page](https://via.placeholder.com/800x400?text=Login+Page)
+1. **Login Page**
 
-2. **Dashboard**  
-   ![Dashboard](https://via.placeholder.com/800x400?text=Dashboard)
+   ![Login Page](https://github.com/user-attachments/assets/e3706a67-47f6-4dd1-ba11-37f586966b2d)
 
-3. **Customer Management**  
-   ![Customer Management](https://via.placeholder.com/800x400?text=Customer+Management)
+2. **SignUp Page**
 
-4. **Interaction Management**  
-   ![Interaction Management](https://via.placeholder.com/800x400?text=Interaction+Management)
+   ![SignUp Page](https://github.com/user-attachments/assets/47b9860d-39bb-4f16-8531-8a8e8ff9b747)
 
-5. **Reports**  
-   ![Reports](https://via.placeholder.com/800x400?text=Reports)
+3. **Dashboard**
+   
+   ![Dashboard](https://github.com/user-attachments/assets/df145ba5-6918-4298-96e5-ac95c2ea1641)
+
+4. **Customer Management**
+   
+   ![Customer Management](https://github.com/user-attachments/assets/20bce4ab-ef1b-4f1d-b701-c6ad9aadf5af)
+
+5. **Add Customer**
+   
+   ![Add Customer](https://github.com/user-attachments/assets/e00d36b7-3f0e-4a44-89eb-47e232ecfce9)
+
+6. **Interaction Management**
+   
+   ![Interaction Management](https://github.com/user-attachments/assets/4d7e1a61-2c0e-4fad-81e1-b288bd7afdc5)
+
+7. **Reports** 
+
+   ![Reports](https://github.com/user-attachments/assets/9f23222a-058e-4cc9-9492-82210e845d19)
+
+## License
+
+This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- LinkedIn: [linkedin.com/shivmodi](https://linkedin.com/shivmodi)
+- GitHub: [shiv-modi](https://github.com/shiv-modi)
+
+# Thank you for checking out BASIC_CRM! 😊 
+# If you like this project, give it a 🌟
